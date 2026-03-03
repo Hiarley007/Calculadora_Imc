@@ -9,7 +9,7 @@ altura = float(input("Digite sua altura em M: "))
 # CÁLCULO DO IMC
 calculo = peso / (altura * altura)
 
-# ANÁLISE DE CATEGORIAS COM BASE NO CÁLCULO DE IMC
+# ANÁLISE DE CATEGORIAS COM BASE NO CÁLCULO DE IMC DE ACORDO COM A OMS
 if calculo <= 18.5 :
     print(f'{nome}, você está ABAIXO DO PESO')
 
